@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../assets/heroImage.png'
+import heroImage from '../assets/heroImage.jpg'
 import {TbArrowRightCircle} from 'react-icons/tb'
 
 const Home = () => {
