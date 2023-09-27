@@ -11,7 +11,7 @@ function App() {
     // <div className="py-10 flex items-center justify-center">
     //   <h1 className="text-4xl font-bold text-red-500 font-signature">Aastha</h1>
     // </div>
-    <div>
+    <div className="flex flex-col bg-black pt-16">
       <Nav />
       <Home />
       <About />
