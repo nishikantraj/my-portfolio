@@ -1,26 +1,39 @@
 import React from "react";
-import bubble_game from "../assets/portfolio/bubble_game.png";
-import keyGenerate from "../assets/portfolio/key_generate.png";
-import snakeLadder from "../assets/portfolio/snake_ladder.png";
-import toDoList from "../assets/portfolio/todo_list.png";
+import bubble_game from "../assets/portfolio/bubble_game.webp";
+import keyGenerate from "../assets/portfolio/key_generate.webp";
+import snakeLadder from "../assets/portfolio/snake_ladder.webp";
+import toDoList from "../assets/portfolio/todo_list.webp";
 
 const Portfolio = () => {
   const arr = [
     {
+      title: "Bubble game",
+      stack:['html','css','javascript'],
       id: 1,
       src: bubble_game,
+      web: 'https://nishikantraj.github.io/Bubble-Game/',
+      code:'https://github.com/nishikantraj/Bubble-Game'
     },
-    {
+    { title: "DES Key Generation",
+      stack:['Java','cryptography','oops'],
       id: 2,
       src: keyGenerate,
+      web: 'https://github.com/nishikantraj/DES_Key_Generation-JAVA',
+      code:'https://github.com/nishikantraj/DES_Key_Generation-JAVA'
     },
-    {
+    { title: "Snake & ladder game",
+    stack:['java','oops'],
       id: 3,
       src: snakeLadder,
+      web: 'https://github.com/nishikantraj/Snake_Ladder_Game_LLD',
+      code:'https://github.com/nishikantraj/Snake_Ladder_Game_LLD'
     },
-    {
+    { title: "Todo list",
+    stack:['html','css','javascript'],
       id: 4,
       src: toDoList,
+      web: 'https://nishikantraj.github.io/TODO-LIST/',
+      code:'https://github.com/nishikantraj/TODO-LIST'
     },
   ];
   return (
@@ -35,21 +48,31 @@ const Portfolio = () => {
           </p>
           <p className="pt-5">Check out some of my Projects</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {arr.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+        <div className="flex flex-wrap  gap-8 md:justify-between justify-center">
+          {arr.map(({ id, src,title,stack,web,code}) => (
+            <div key={`project-${id}`} className="border border-cyan-400 hover:bg-cyan-500/10 duration-200 hover:scale-105 ease-out overflow-hidden group rounded-lg">
               <img
                 src={src}
                 alt="bubble"
-                className="rounded-md hover:scale-105 duration-200"
+                className="rounded-md group-hover:scale-105 duration-200 h-40 object-cover"
               />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 ease-in-out">
+              <div className="p-3 ">
+                <h2 className="text-lg font-bold">{title}</h2>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {stack.map((item, id) => (
+                    <div key={`tag-${id}`} className="bg-cyan-500 px-2 rounded-md text-black font-semibold text-sm">
+                      {item}
+                    </div>
+                  ))}
+                </div>
+              <div className="flex items-center justify-center pt-3 mt-3 border-t gap-3 border-cyan-400/25">
+                <a href={web} target="_blank" className="flex items-center justify-center w-1/2 duration-200 h-10 bg-gray-900 hover:bg-cyan-400 hover:font-bold tracking-widest text-sm hover:text-black ring-1 rounded-md ring-cyan-400 ">
                   Website
-                </button>
-                <button className="w-1/2 px-6 py-3 m-2 duration-200 hover:scale-105 ease-in-out">
+                </a>
+                <a href={code} target="_blank" className="flex items-center justify-center w-1/2 duration-200 h-10 bg-gray-900 hover:bg-cyan-400 hover:font-bold tracking-widest text-sm hover:text-black ring-1 rounded-md ring-cyan-400 ">
                   Code
-                </button>
+                </a>
+              </div>
               </div>
             </div>
           ))}

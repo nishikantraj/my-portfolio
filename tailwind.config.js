@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {fontFamily: {
-      signature:["Great Vibes"],
+      signature:["Major Mono Display"],
     },
     colors: {
       pinkish: "#8E6F85"

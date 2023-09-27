@@ -9,11 +9,10 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h1 className='text-white text-4xl font-bold sm:text-6xl'>I'm a Web Developer</h1>
-          <p className='text-gray-500 max-w-md py-4'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias veritatis
-            facere quos nostrum explicabo ex, iusto cupiditate sit expedita suscipit,
-            repellat modi quaerat incidunt eaque culpa. Blanditiis distinctio excepturi
-            quasi?
+          <p className='text-gray-500 max-w-md text-lg py-4'>
+            I am a passionate tech enthusiast, deeply immersed in the world of technology. Currently, I'm
+            actively engaged with technologies such as React, Tailwind CSS, and proficient in
+            the programming language Java.
           </p>
           <div >
             <Link to='portfolio' smooth duration={500} className='group text-white w-fit flex items-center cursor-pointer rounded-md px-4 py-3 my-2 bg-gradient-to-r from-cyan-500 to-blue-500'>

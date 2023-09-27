@@ -7,18 +7,23 @@ const About = () => {
               <div className='pb-4'>
                   <p className='text-4xl font-bold inline border-b-2 border-gray-500'>About</p>
               </div>
-              <p className='text-xl mt-16'>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla doloribus cupiditate obcaecati iure aut assumenda
-                  aspernatur rerum ut cumque hic. Voluptate magni rem iste quos dolor laudantium
-                  maiores vero perspiciatis nesciunt exercitationem. Tempora, alias architecto! Magni, vitae!
-                  Dolor ipsa architecto magnam ab iusto, exercitationem sed iure, fugiat eum nam sint.
+              <p className='text-lg font-light mt-16'>
+                  I am currently in my 4<sup>th</sup> year of pursuing a B.Tech degree at Siksha 'O' Anusandhan University,
+                  where I've nurtured a deep passion for web development. My journey in the realm of technology
+                  has been marked by a strong foundation in Java, honed problem-solving skills, and a fervent
+                  belief in continuous learning.
               </p>
               <br />
-              <p className='text-xl'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit error totam nihil officia ab quam dolore est.
-                  Commodi suscipit iure nesciunt provident vel nobis labore laudantium sint quasi, officiis est, aliquam eos deserunt aspernatur accusantium
-                  repudiandae architecto cumque! Vero, error ipsam. Corrupti veritatis quos voluptate dolor numquam praesentium, debitis laboriosam, ex cum a
-                  ducimus natus magni ab sed vitae accusamus.
+              <p className='text-lg font-light'>
+                  In all my endeavors, I embrace the philosophy that "What we know is a drop, what we do not know is
+                  an ocean." This philosophy drives my passion for learning and innovation, reminding me that there
+                  is always more to discover and explore in the ever-evolving world of technology.
+              </p>
+              <br />
+              <p className='text-lg font-light'>
+                  I invite you to explore my projects in the dedicated section, where you'll witness my dedication to web
+                  development, problem-solving, and my unquenchable thirst for knowledge. Thank you for visiting my
+                  portfolio, and feel free to reach out for any inquiries or collaborations.
               </p>
           </div>
     </div>
