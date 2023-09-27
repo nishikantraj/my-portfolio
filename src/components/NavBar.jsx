@@ -28,9 +28,9 @@ const Nav = () => {
   return (
     <div className="flex justify-between items-center bg-black/50 backdrop-blur-lg w-full h-16 text-white px-5 fixed top-0">
 
-        <h1 className="text-xl md:text-4xl font-signature text-white">
+        <Link to='home' smooth duration={500} className="text-xl md:text-4xl font-signature cursor-pointer text-white">
           nishikant
-        </h1>
+        </Link>
       
       <ul className="hidden md:flex">
         {arr.map(({ id, link }) => (
