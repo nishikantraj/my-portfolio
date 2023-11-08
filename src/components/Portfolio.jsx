@@ -3,6 +3,8 @@ import bubble_game from "../assets/portfolio/bubble_game.webp";
 import keyGenerate from "../assets/portfolio/key_generate.webp";
 import snakeLadder from "../assets/portfolio/snake_ladder.webp";
 import toDoList from "../assets/portfolio/todo_list.webp";
+import password_generator from "../assets/portfolio/password_generate.webp";
+import searchPage from "../assets/portfolio/search_page.webp";
 
 const Portfolio = () => {
   const arr = [
@@ -35,6 +37,21 @@ const Portfolio = () => {
       web: 'https://nishikantraj.github.io/TODO-LIST/',
       code:'https://github.com/nishikantraj/TODO-LIST'
     },
+    { title: "Password Generator",
+    stack:['React.js'],
+      id: 5,
+      src: password_generator,
+      web: 'https://nishikant-password-generate.vercel.app/',
+      code:'https://github.com/nishikantraj/password_generator'
+    },
+    {
+      title: "Search Page",
+    stack:['html','css'],
+      id: 6,
+      src: searchPage,
+      web: 'https://nishikant-searchpage.netlify.app/',
+      code:'https://github.com/nishikantraj/Search-Page/tree/master/HTML/SearchPage'
+    }
   ];
   return (
     <div

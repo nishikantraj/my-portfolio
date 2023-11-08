@@ -16,7 +16,7 @@ const Contact = () => {
                       <input name='Name' type="text" placeholder='Enter your name'
                           className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
                       
-                      <input name='Email' type="text" placeholder='Enter your em@il'
+                      <input name='Email' type="text" placeholder='Enter your email'
                           className='p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none' />
                       
                       <textarea name="Message" rows="10" placeholder='Enter your message' className='p-2 bg-transparent border-2
