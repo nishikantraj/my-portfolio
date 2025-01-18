@@ -7,6 +7,10 @@ import python from "../assets/experience/python.png";
 import react from "../assets/experience/react.png";
 import sql from "../assets/experience/sql.png";
 import tailwind from "../assets/experience/tailwind.png";
+import ts from "../assets/experience/ts.png";
+import node from "../assets/experience/node.png";
+import express from "../assets/experience/express.png";
+import mongo from "../assets/experience/mongo.png";
 
 const Experience = () => {
   const arr = [
@@ -22,11 +26,24 @@ const Experience = () => {
       style: "shadow-blue-500",
       title: "CSS",
     },
+
+    {
+      id: 8,
+      src: tailwind,
+      style: "shadow-sky-400",
+      title: "Tailwind",
+    },
     {
       id: 3,
       src: javascript,
       style: "shadow-yellow-500",
       title: "JavaScript",
+    },
+    {
+      id: 9,
+      src: ts,
+      style: "shadow-sky-400",
+      title: "TypeScript",
     },
     {
       id: 4,
@@ -35,9 +52,27 @@ const Experience = () => {
       title: "React",
     },
     {
+      id: 10,
+      src: node,
+      style: "shadow-pink-300",
+      title: "Node.js",
+    },
+    {
+      id: 11,
+      src: express,
+      style: "shadow-pink-300",
+      title: "Express.js",
+    },
+    {
+      id:12,
+      src: mongo,
+      style: "shadow-pink-600",
+      title: "MongoDB",
+    },
+    {
       id: 5,
       src: java,
-      style: "shadow-pink-600",
+      style: "shadow-pink-300",
       title: "Java",
     },
     {
@@ -51,12 +86,6 @@ const Experience = () => {
       src: sql,
       style: "shadow-pink-300",
       title: "SQL",
-    },
-    {
-      id: 8,
-      src: tailwind,
-      style: "shadow-sky-400",
-      title: "Tailwind",
     },
   ];
   return (

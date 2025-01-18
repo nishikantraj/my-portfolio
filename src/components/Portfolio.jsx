@@ -1,7 +1,7 @@
 import React from "react";
 import bubble_game from "../assets/portfolio/bubble_game.webp";
 import climatrack from "../assets/portfolio/climaTrack.png";
-import snakeLadder from "../assets/portfolio/snake_ladder.webp";
+import currency from "../assets/portfolio/currency.png";
 import toDoList from "../assets/portfolio/todo_list.webp";
 import password_generator from "../assets/portfolio/password_generate.webp";
 import searchPage from "../assets/portfolio/search_page.webp";
@@ -15,6 +15,13 @@ const Portfolio = () => {
       web: 'https://nishi-climatrack.vercel.app/',
       code:'https://github.com/nishikantraj/ClimaTrack'
     },
+    { title: "Currency Converter",
+      stack:['React.js',"Node.js",'API'],
+        id: 3,
+        src: currency,
+        web: 'https://nishikant-currencychange.vercel.app/',
+        code:'https://github.com/nishikantraj/CurrencyConverter'
+      },
     {
       title: "Bubble game",
       stack:['html','css','javascript'],
@@ -22,13 +29,6 @@ const Portfolio = () => {
       src: bubble_game,
       web: 'https://nishikantraj.github.io/Bubble-Game/',
       code:'https://github.com/nishikantraj/Bubble-Game'
-    },
-    { title: "Snake & ladder game",
-    stack:['java','oops'],
-      id: 3,
-      src: snakeLadder,
-      web: 'https://github.com/nishikantraj/Snake_Ladder_Game_LLD',
-      code:'https://github.com/nishikantraj/Snake_Ladder_Game_LLD'
     },
     { title: "Todo list",
     stack:['html','css','javascript'],

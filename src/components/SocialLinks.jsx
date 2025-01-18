@@ -40,7 +40,7 @@ const SocialLinks = () => {
       child: (
         <>Resume<BsFillPersonLinesFill size={24} /></>
         ),
-      href:'./NISHIKANT_SOA.pdf',
+      href:'./NISHIKANT.pdf',
       style:'rounded-br-md',
       download: true
     }
